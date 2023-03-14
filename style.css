@@ -1,11 +1,9 @@
 * {
     margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
-.parallax {
-    background-image: ;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+. {
+
 }
