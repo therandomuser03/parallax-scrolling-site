@@ -1,9 +1,12 @@
 * {
     margin: 0;
-    height: 100vh;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background: linear-gradient(to right, #780206, #061161);
+    min-height: 500vh;
+    overflow-x: hidden;
+    /* background-color: black; */
 }
+
