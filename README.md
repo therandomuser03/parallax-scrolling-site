@@ -5,3 +5,8 @@
 
 
 An attempt to create a simple demo parallax scrolling using ScrollTrigger in HTML and CSS
+
+
+### Link for the ScrollTrigger command
+
+[Click Here](http://bitly.ws/BHYJ) (HTML script)
