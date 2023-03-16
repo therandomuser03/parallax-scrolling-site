@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Logo</a>
+        <a href="https://github.com/therandomuser03" class="logo"><img src="./images/logo.png" height="80px" width="80px"></a>
         <ul class="navigation">
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#">About</a></li>
@@ -28,5 +28,56 @@
         <img src="./images/plants.png" id="plants">
     </section>
 
+    <section class="sec">
+        <h2>Parallax Scrolling Website</h2>
+        <p>Parallax scrolling is a special scrolling technique that is used in web design to create an impression of depth. With this technique, the background of a web page moves at a slower speed than the foreground while scrolling, creating the illusion of three-dimensionality on a two-dimensional website.<br><br>Initially known as "parallaxing", it originated from the multiplane camera technique which was introduced to animation in the 1930s. This technique uses multiple layers that are each moved by a different amount in the same direction. As a result, the faster moving layers are perceived as closer to the camera. Walt Disney applied parallaxing in his film classics such as Snow White, Bambi and Fantasia to create an illusion of movement and depth. From the 1980s onwards, the technique was used in 2D computer graphics and video games, especially by Arcade. Since 2011, web design utilizes parallax scrolling with HTML5 and CSS3 encoding to better engage users and improve the overall experience on websites.<br><br>While the parallax scrolling effect can greatly enhance the visual appearance of a website’s desktop version, it is less suitable for mobile devices. Due to the much smaller screen sizes of smartphones and tablets, the images used on a desktop PC for parallax scroll designs are often too large for these devices, both in terms of dimensions and file size.</p>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script>
+    gsap.from("#m1", {
+        scrollTrigger : {
+            scrub: true
+        }, y: 100,
+    })
+    
+    gsap.from("#m2", {
+        scrollTrigger : {
+            scrub: true
+        }, y: 50,
+    })
+    
+    gsap.from("#t2", {
+        scrollTrigger : {
+            scrub: true
+        }, x: -50,
+    })
+    
+    gsap.from("#t1", {
+        scrollTrigger : {
+            scrub: true
+        }, x: 50,
+    })
+    
+    gsap.from("#man", {
+        scrollTrigger : {
+            scrub: true
+        }, x: -250,
+    })
+    
+    gsap.from("#plants", {
+        scrollTrigger : {
+            scrub: true
+        }, x: -50,
+    })
+    
+    gsap.from("#text", {
+        scrollTrigger : {
+            scrub: true
+        }, x: 250,
+        })    
+    </script>
+    
 </body>
 </html>
