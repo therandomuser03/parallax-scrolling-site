@@ -12,6 +12,7 @@ body {
     background: #FFF;
     min-height: 100vh;
 }
+
 header {
     position: absolute;
     top: 0;
@@ -23,3 +24,22 @@ header {
     align-items: center;
     z-index: 1000;
 }
+
+.logo {
+    color: #112434;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.navigation li {
+    list-style: none;
+}
+
